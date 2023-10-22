@@ -1,5 +1,7 @@
 .idea/
 
-*/**/.terraform/
-*/**/*.lock.hcl
-prerequisite/terraform.tfstate/
+**/.terraform/
+**/*.lock.hcl
+**/.terraform/*
+*.tfstate
+*.tfstate.*
