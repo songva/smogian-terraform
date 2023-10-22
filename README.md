@@ -1,2 +1,2 @@
 # terraform-aws
-Dip a toe in the Terraform
+Dip a toe in Terraform
