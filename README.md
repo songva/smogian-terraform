@@ -3,7 +3,7 @@ Dip a toe in Terraform
 
 
 ### Getting Started
-This Terraform project is configure with AWS s3 backend, creating of state file folder in AWS is also configure in `/prerequisite`   
+This Terraform project is configured with AWS s3 backend, creating of the state file folder in AWS is also configured in `/prerequisite`
 
 ### Install Terraform
 ```
@@ -39,7 +39,7 @@ sso_role_name = <readOnly>
 > _profile-name will be used as stage name, e.g. dev, staging_
 
 
-### Create state bucket in AWS
+### Create the state bucket in AWS
 ```
 $ cd prerequisite
 prerequisite $ terraform init
