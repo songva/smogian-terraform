@@ -5,7 +5,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "terraform-state-bucket" {
-  bucket = "assiniboine-craft-terraform-backend"
+  bucket = "smogian-terraform-backend"
 }
 
 resource "aws_s3_bucket_policy" "allow_access_from_terraform" {
