@@ -1,3 +1,3 @@
 output "application-name" {
-  value = "assiniboine-craft"
+  value = "smogian"
 }
