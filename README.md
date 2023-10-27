@@ -47,8 +47,8 @@ prerequisite $ terraform init
 
 ### Initiate workspace
 ```
-$ cd ..\assiniboine-craft
-assiniboine-craft $ terraform workspace new <workspace-name>
+$ cd ..\main
+main $ terraform workspace new <workspace-name>
 ```
 > _workspace-name should be consistent with aws profile name, as it will be used to match profile names of AWS config_
 

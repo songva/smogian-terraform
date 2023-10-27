@@ -8,10 +8,10 @@ terraform {
   required_version = ">= 1.6.1"
 
   backend "s3" {
-    region = "ca-central-1"
-    bucket = "assiniboine-craft-terraform-backend"
+    region               = "ca-central-1"
+    bucket               = "smogian-terraform-backend"
     workspace_key_prefix = ""
-    key    = "terraform.tfstate"
+    key                  = "terraform.tfstate"
   }
 }
 
