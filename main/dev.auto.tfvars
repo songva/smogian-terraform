@@ -1,0 +1,1 @@
+sqs_retention_seconds = 86400
